@@ -1,3 +1,5 @@
+// Importing all image assets and exporting them as a single object for easy usage across the app
+
 import analytics_img from "./analytics_img.png";
 import arrow_img from "./arrow_img.png";
 import box_img from "./box_img.png";

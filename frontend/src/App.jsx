@@ -3,7 +3,6 @@ import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Why from "./components/Why";
 import Footer from "./components/Footer";
-
 import Analytics from "./components/Analytics";
 import Booking from "./components/Booking";
 

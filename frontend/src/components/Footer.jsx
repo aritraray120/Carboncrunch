@@ -1,4 +1,4 @@
-import { assets } from "../assets/assets";
+import { assets } from "../assets/assets"; // Import assets
 
 function Footer() {
   return (
@@ -41,30 +41,30 @@ function Footer() {
             {/* Grid Links - Fully Responsive */}
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 md:gap-[40px]">
               <div className="flex flex-col gap-[12px]">
-                <span className="text-[16px] font-[500] text-[#989898]">Home</span>
-                <span className="text-[16px] font-[500] text-[#989898]">About</span>
-                <span className="text-[16px] font-[500] text-[#989898]">How it works</span>
-                <span className="text-[16px] font-[500] text-[#989898]">Contact us</span>
+                <span className="text-[16px] font-[500] text-[#989898] cursor-pointer">Home</span>
+                <span className="text-[16px] font-[500] text-[#989898] cursor-pointer">About</span>
+                <span className="text-[16px] font-[500] text-[#989898] cursor-pointer">How it works</span>
+                <span className="text-[16px] font-[500] text-[#989898] cursor-pointer">Contact us</span>
               </div>
 
               <div className="flex flex-col gap-[12px]">
-                <span className="text-[16px] font-[500] text-[#989898]">FAQs</span>
-                <span className="text-[16px] font-[500] text-[#989898]">Start your transaction</span>
-                <span className="text-[16px] font-[500] text-[#989898]">Why choose us</span>
+                <span className="text-[16px] font-[500] text-[#989898] cursor-pointer">FAQs</span>
+                <span className="text-[16px] font-[500] text-[#989898] cursor-pointer">Start your transaction</span>
+                <span className="text-[16px] font-[500] text-[#989898] cursor-pointer">Why choose us</span>
               </div>
 
               <div className="flex flex-col gap-[12px]">
-                <span className="text-[16px] font-[500] text-[#989898]">Businesses</span>
-                <span className="text-[16px] font-[500] text-[#989898]">Privacy Policy</span>
-                <span className="text-[16px] font-[500] text-[#989898]">Refund Policy</span>
-                <span className="text-[16px] font-[500] text-[#989898]">Terms & Conditions</span>
+                <span className="text-[16px] font-[500] text-[#989898] cursor-pointer">Businesses</span>
+                <span className="text-[16px] font-[500] text-[#989898] cursor-pointer">Privacy Policy</span>
+                <span className="text-[16px] font-[500] text-[#989898] cursor-pointer">Refund Policy</span>
+                <span className="text-[16px] font-[500] text-[#989898] cursor-pointer">Terms & Conditions</span>
               </div>
 
               <div className="flex flex-col gap-[12px]">
-                <span className="text-[16px] font-[500] text-[#989898]">Email</span>
-                <span className="text-[16px] font-[500] text-[#989898]">Facebook</span>
-                <span className="text-[16px] font-[500] text-[#989898]">X - Twitter</span>
-                <span className="text-[16px] font-[500] text-[#989898]">Instagram</span>
+                <span className="text-[16px] font-[500] text-[#989898] cursor-pointer">Email</span>
+                <span className="text-[16px] font-[500] text-[#989898] cursor-pointer">Facebook</span>
+                <span className="text-[16px] font-[500] text-[#989898] cursor-pointer">X - Twitter</span>
+                <span className="text-[16px] font-[500] text-[#989898] cursor-pointer">Instagram</span>
               </div>
             </div>
           </div>
@@ -83,3 +83,4 @@ function Footer() {
 }
 
 export default Footer;
+
