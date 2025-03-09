@@ -3,7 +3,7 @@ import { assets } from "../assets/assets";
 function Hero() {
   return (
     <div
-      className="relative flex flex-col md:flex-row justify-center items-center min-h-screen w-full bg-cover bg-center bg-no-repeat overflow-hidden px-[80px] h-[820px]"
+      className="relative flex flex-col md:flex-row justify-center items-center min-h-screen w-full bg-cover bg-center bg-no-repeat overflow-hidden px-[80px] h-[820px] pb-[90px]"
       style={{
         backgroundImage: `url(${assets.global_map})`,
         backgroundSize: 'cover',
