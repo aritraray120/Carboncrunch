@@ -29,7 +29,8 @@ function Why() {
           </p>
         </div>
 
-        <div className="flex flex-col items-center text-center lg:items-start lg:text-left">
+        {/* Second Div with more fade effect */}
+        <div className="flex flex-col items-center text-center lg:items-start lg:text-left opacity-80">
           <img src={assets.box_img} alt="" className="mb-4 lg:mb-6" />
           <p className="text-xl lg:text-2xl font-bold text-[#28B30E] mb-2 lg:mb-4">
             Meeting Sustainability Goals and Net-Zero Targets
@@ -40,7 +41,8 @@ function Why() {
           </p>
         </div>
 
-        <div className="flex flex-col items-center text-center lg:items-start lg:text-left">
+        {/* Third Div with more fade effect */}
+        <div className="flex flex-col items-center text-center lg:items-start lg:text-left opacity-60">
           <img src={assets.box_img} alt="" className="mb-4 lg:mb-6" />
           <p className="text-xl lg:text-2xl font-bold text-[#28B30E] mb-2 lg:mb-4">
             Cost Savings and Operational Efficiency

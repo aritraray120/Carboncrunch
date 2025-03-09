@@ -2,7 +2,7 @@ import { assets } from "../assets/assets";
 
 function Footer() {
   return (
-    <div className="bg-[#222222] flex flex-col items-center py-[40px] pt-[138px] pb-[160px] w-full min-h-[320px] relative">
+    <div className="bg-[#222222] flex flex-col items-center py-[40px] pt-[138px] pb-[140px] w-full min-h-[320px] relative">
       <div className="flex flex-col max-w-[1100px] w-full px-4 sm:px-6 lg:px-0">
         {/* Top Section: Subscription & Links */}
         <div className="flex flex-col md:flex-row justify-between items-start w-full gap-10">
@@ -22,11 +22,11 @@ function Footer() {
                 className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5"
               />
               <input
-                type="email"
+                type="text"
                 placeholder="Enter email"
-                className="w-full h-[57px] pl-12 pr-[100px] py-[11px] rounded-[12px] bg-white border border-gray-300 text-black"
+                className="w-full h-[57px] pl-12 pr-[100px] py-[11px] rounded-[12px] bg-white border border-gray-300 text-black focus:outline-none"
               />
-              <button className="absolute right-2 top-1/2 -translate-y-1/2 bg-[#28B30E] text-black px-4 py-2 rounded-[10px] font-bold">
+              <button className="absolute right-2 top-1/2 -translate-y-1/2 bg-[#28B30E] text-black px-4 py-2 rounded-[10px] font-bold transition-transform transform hover:scale-105 active:scale-95 duration-300 ease-in-out">
                 Subscribe
               </button>
             </div>

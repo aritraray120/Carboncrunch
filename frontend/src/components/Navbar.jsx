@@ -24,22 +24,22 @@ function Navbar() {
 
       {/* Buttons - Always on the Right */}
       <div className="flex gap-2 ml-auto">
-        <button className="h-[41px] w-[134px] rounded-[6px] bg-[#D6FFD0] p-2 text-[16px] font-[700] text-[#28B30E]">
+        <button className="h-[41px] w-[134px] rounded-[6px] bg-[#D6FFD0] p-2 text-[16px] font-[700] text-[#28B30E] transition-transform transform hover:scale-105 active:scale-95 duration-300 ease-in-out">
           Login
         </button>
-        <button className="h-[41px] w-[136px] rounded-[6px] bg-[#28B30E] p-2 text-[16px] font-[700] text-[#000000]">
+        <button className="h-[41px] w-[136px] rounded-[6px] bg-[#28B30E] p-2 text-[16px] font-[700] text-[#000000] transition-transform transform hover:scale-105 active:scale-95 duration-300 ease-in-out">
           Book Demo
         </button>
       </div>
 
       {/* Mobile Menu (Visible Only When Open) */}
       {isOpen && (
-        <div className="absolute top-16 left-0 w-full bg-white shadow-lg flex flex-col items-center gap-4 py-4 xl:hidden">
-          <a href="#home" className="text-[16px] font-[500] text-[#2D2D2D]">Home</a>
-          <a href="#services" className="text-[16px] font-[500] text-[#2D2D2D]">Services</a>
-          <a href="#blog" className="text-[16px] font-[500] text-[#2D2D2D]">Blog</a>
-          <a href="#about" className="text-[16px] font-[500] text-[#2D2D2D]">About Us</a>
-          <a href="#contact" className="text-[16px] font-[500] text-[#2D2D2D]">Contact</a>
+        <div className="absolute top-16 left-0 w-full bg-white shadow-lg flex flex-col items-center gap-4 py-4 xl:hidden z-50">
+          <a href="#home" className="text-[16px] font-[500] text-[#2D2D2D] hover:text-[#28B30E] transition-colors duration-300">Home</a>
+          <a href="#services" className="text-[16px] font-[500] text-[#2D2D2D] hover:text-[#28B30E] transition-colors duration-300">Services</a>
+          <a href="#blog" className="text-[16px] font-[500] text-[#2D2D2D] hover:text-[#28B30E] transition-colors duration-300">Blog</a>
+          <a href="#about" className="text-[16px] font-[500] text-[#2D2D2D] hover:text-[#28B30E] transition-colors duration-300">About Us</a>
+          <a href="#contact" className="text-[16px] font-[500] text-[#2D2D2D] hover:text-[#28B30E] transition-colors duration-300">Contact</a>
         </div>
       )}
     </div>
